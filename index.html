@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rehman | Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Rehman<span>Dev</span></a>
+                <div class="nav-links" id="navLinks">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-btn" id="menuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container flex">
+            <div class="hero-content">
+                <div class="hello animate_animated animate_fadeInUp">Hello, I'm</div>
+                <h1 class="animate_animated animatefadeInUp animate_delay-1s">ABDUL REHMAN<br>
+                    <span class="typed-text" >Web Developer</span>
+                </h1>
+                <p class="animate_animated animatefadeInUp animate_delay-2s">
+                    I craft elegant, responsive websites and web applications with cutting-edge technologies.
+                    Let's bring your digital vision to life.
+                </p>
+                <div class="animate_animated animatefadeInUp animate_delay-3s">
+                    <a href="#contact" class="btn">Get In Touch</a>
+                    <a href="#portfolio" class="btn secondary">View Work</a>
+                </div>
+                <div class="social-icons animate_animated animatefadeInUp animate_delay-4s">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="hero-image animate_animated animatefadeIn animate_delay-2s">
+                <img src="./images/computer.png" alt="Azeem Nisar">
+            </div>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2">            </div>
+        </div>
+    </section>
+
+     <!-- About Section -->
+     <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <h3>Professional Web Developer & Designer</h3>
+                    <p>Hello! I'm Abdul Rehman, a passionate web developer with over 1 years of experience creating innovative digital solutions. I specialize in building responsive websites, web applications, and e-commerce platforms that deliver exceptional user experiences.</p>
+                    <p>My approach combines clean, efficient code with creative design solutions to help businesses establish a strong online presence. I believe in continuous learning and stay up-to-date with the latest web technologies and trends.</p>
+                    <div class="skills">
+                        <div class="skill">React
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="skill">JavaScript
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="skill">HTML5
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="skill">CSS3
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="skill">Figma
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <div class="skill">Bootstrap
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+
+                        <div class="skill">Node.js
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="skill">Git
+                            <!-- <i class="fab fa-git"></i> -->
+                        </div>
+                        <!-- <div class="skill">Vue.js</div> -->
+                        <!-- <div class="skill">PHP</div> -->
+                        <!-- <div class="skill">WordPress</div> -->
+                        <!-- <div class="skill">UI/UX Design</div> -->
+                        <div class="skill">Responsive Design
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div style="margin-top: 2rem;">
+                        <a href="#contact" class="btn">Let's Work Together</a>
+                    </div>
+                </div class="image reveal">
+                    <img src="/images/image2.png" alt="About Abdul Rehman " class="image2">
+                    <div class="experience-badge">
+                        <span>1+</span>
+                        <span>Years Experience</span>
+                    </div>
+                </div>
+<!-- <div class="about-image reveal">
+    <img src="/api/placeholder/500/600" alt="About Abdul Rehman">
+    <div class="experience-badge">
+        <span>5+</span>
+        <span>Years Experience</span>
+    </div>
+</div> -->
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+    <div class="container">
+        <h2 class="section-title">My Services</h2>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Custom website development using the latest technologies to create responsive, high-performance websites tailored to your needs.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>Web Design</h3>
+                <p>Creative and user-friendly designs that enhance user experience and effectively communicate your brand message.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Responsive Design</h3>
+                <p>Ensuring your website looks and functions perfectly across all devices and screen sizes for maximum user engagement.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>E-Commerce Solutions</h3>
+                <p>Building secure, feature-rich online stores with intuitive checkout processes and essential e-commerce functionalities.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>SEO Optimization</h3>
+                <p>Implementing best practices to improve your website's visibility in search engines and drive organic traffic.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3>Website Maintenance</h3>
+                <p>Regular updates, security checks, and technical support to keep your website running smoothly and securely.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="section-title">My Portfolio</h2>
+        <div class="portfolio-filters">
+            <button class="active" data-filter="all">All</button>
+            <button data-filter="web">Web Design</button>
+            <button data-filter="app">Web Apps</button>
+            <button data-filter="ecommerce">E-Commerce</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image" style="background-image: url('/images/')"></div>
+                <div class="portfolio-overlay">
+                    <h3>Modern Restaurant Website</h3>
+                    <p>Web Design / HTML / CSS / JavaScript</p>
+                    <div class="portfolio-links">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-image" style="background-image: url('/images/p1.jpg')"></div>
+                <div class="portfolio-overlay">
+                    <h3>One To One Chat App</h3>
+                    <p>Web App / React / Node.js / Firebase</p>
+                    <div class="portfolio-links">
+                        <a href="http://127.0.0.1:3000/index.html"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ecommerce">
+                <div class="portfolio-image" style="background-image: url('/images/p3.png')"></div>
+                <div class="portfolio-overlay">
+                    <h3>Weather-App</h3>
+                    <p>React / API / Node.js</p>
+                    <div class="portfolio-links">
+                        <a href="https://sky-scanner-one.vercel.app/" target="_blank"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                <div class="portfolio-overlay">
+                    <h3>Real Estate Landing Page</h3>
+                    <p>Web Design / HTML / CSS / JavaScript</p>
+                    <div class="portfolio-links">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                <div class="portfolio-overlay">
+                    <h3>Weather Dashboard</h3>
+                    <p>Web App / API / JavaScript</p>
+                    <div class="portfolio-links">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ecommerce">
+                <div class="portfolio-image" style="background-image: url('/api/placeholder/600/400')"></div>
+                <div class="portfolio-overlay">
+                    <h3>Handmade Products Shop</h3>
+                    <p>E-Commerce / Shopify / Custom Theme</p>
+                    <div class="portfolio-links">
+                        <a href="#"><i class="fas fa-link"></i></a>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-slides">
+                    <div class="testimonial active">
+                        <div class="testimonial-quote">
+                            "Working with Abdul Rehmanwas an absolute pleasure. He understood our vision perfectly and delivered a website that exceeded our expectations. His attention to detail and technical skills are impressive."
+                        </div>
+                        <div class="testimonial-client">
+                            <div class="client-image">
+                                <img src="/api/placeholder/100/100" alt="Sarah Johnson">
+                            </div>
+                            <div class="client-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, FashionHub</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-quote">
+                            "Abdul Rehmantransformed our outdated website into a modern, user-friendly platform that has significantly increased our online inquiries. His expertise in both design and development made the process seamless."
+                        </div>
+                        <div class="testimonial-client">
+                            <div class="client-image">
+                                <img src="/api/placeholder/100/100" alt="Michael Brown">
+                            </div>
+                            <div class="client-info">
+                                <h4>Michael Brown</h4>
+                                <p>Director, TechSolutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-quote">
+                            "Our e-commerce site developed by Abdul Rehmanhas been a game-changer for our business. The intuitive design and smooth functionality have resulted in a 40% increase in online sales within just three months."
+                        </div>
+                        <div class="testimonial-client">
+                            <div class="client-image">
+                                <img src="/api/placeholder/100/100" alt="Emily Davis">
+                            </div>
+                            <div class="client-info">
+                                <h4>Emily Davis</h4>
+                                <p>Owner, Artisan Crafts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button id="prevBtn"><i class="fas fa-arrow-left"></i></button>
+                    <button id="nextBtn"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new projects and collaborations. Feel free to reach out to discuss your project needs or just to say hello.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Lahore, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>Rehman@Rehmandevportfolio.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+92 3196264318</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Website</h4>
+                                <a href=""><p>www.Rehmandev.com</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form reveal">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Rehman<span>Dev</span></h2>
+                <p>Creating innovative digital solutions for businesses and individuals. Let's build something amazing together.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Mobile Apps</a></li>
+                    <li><a href="#">E-Commerce</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to my newsletter for the latest articles, tutorials, and project updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Abdul Rehman. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
