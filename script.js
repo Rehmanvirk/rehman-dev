@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
  function setTheme(isDark) {
      if (isDark) {
          document.body.classList.add('dark-theme');
-         themeIcon.className = 'fas fa-sun';
+         themeIcon.className = 'fas fa-sun'; 
          localStorage.setItem('theme', 'dark');
      } else {
          document.body.classList.remove('dark-theme');

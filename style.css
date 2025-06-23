@@ -250,6 +250,10 @@ h1 span {
   gap: 1.5rem;
   margin-top: 2rem;
 }
+.social-icons.dark{
+  color: white;
+}
+
 
 .social-icons a {
   color: var(--dark);
