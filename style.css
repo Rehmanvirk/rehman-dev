@@ -195,6 +195,7 @@ nav {
 .typed-text {
   display: block;
   height: 2em;
+   width: 110%;
 }
 
 .hero-image {
